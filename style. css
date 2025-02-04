@@ -1,0 +1,122 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.container {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+}
+
+.chatbox {
+height: 300px;
+overflow-y: auto;
+border: 1px solid #ccc;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 5px;
+background-image: url('path/to/your/https://i.ibb.co/Fbfnb2f9/image.jpg'); /* Remplacez par le chemin de votre image */
+background-size: cover; /* Pour couvrir toute la boîte */
+background-position: center; /* Centrer l'image */
+}
+
+.user-message {
+text-align: right;
+color: blue;
+margin:10px 0;
+}
+
+.bot-message {
+text-align: left;
+color: green;
+margin: 10px 0;
+}
+
+.bot-message::before {
+content: "🤖"; /* Emoji du bot */
+margin-right: 5px;
+}
+
+s: 10px 10px 10px 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.container {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+}
+
+.chatbox {
+height: 300px;
+overflow-y: auto;
+border: 1px solid #ccc;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 5px;
+background-image: url('path/to/your/image.jpg'); /* Remplacez par le chemin de votre image */
+background-size: cover; /* Pour couvrir toute la boîte */
+background-position: center; /* Centrer l'image */
+}
+
+.user-message {
+text-align: right;
+color: blue;
+margin:10px 0;
+}
+
+.bot-message {
+text-align: left;
+color: green;
+margin: 10px 0;
+}
+
+.bot-message::before {
+content: "🤖"; /* Emoji du bot */
+margin-right: 5px;
+}
+
+.user-message::before {
+content: "👤"; /* Emoji de l'utilisateur */
+margin-right: 5px;
+}
+
+.message {
+display: flex;
+align-items: center;
+}
+
+.message p {
+margin: 0;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.user-message p {
+background-color: rgba(224, 247, 250, 0.8); /* Couleur de fond pour le message utilisateur avec transparence */
+border-radius: 10px 10px 0 10px;
+}
+
+.bot-message p {
+background-color: rgba(200, 230, 201, 0.8); /* Couleur de fond pour le message du bot avec transparence */
+border-radius: 10px 10px 10px 0;
+}
